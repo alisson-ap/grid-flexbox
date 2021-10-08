@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    
+    background-color: #303160;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+body{
+    background: #202124;
+}
+.menu{
+    display: flex;
+  
+}
+.menu li{
+    margin-left: 10px;
+    
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+.flex > div{
+    flex: 1.1 200px;
+    margin: 10px;
+   
+}
+
+.card{
+    
+    background-color: #303160;
+    border-radius: 5px;
+    text-align: center;
+    border: solid 1px grey;
+}
+
+.card p{
+    font-family: 'Birthstone', cursive;
+    font-size: 150%;
+    
+}
+
+
