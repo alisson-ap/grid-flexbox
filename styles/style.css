@@ -18,8 +18,9 @@ a{
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
-    
-    
+    position: fixed;
+    width: 100%;
+      
 }
 #header-body{
     background-image: url(../imagem/johannes-plenio-qkfxBc2NQ18-unsplash\ \(1\).jpg);
@@ -37,11 +38,28 @@ a{
     font-family: 'Birthstone', cursive;
 
 }
+#header-body_2{
+    background-image: url(../imagem/johannes-plenio-qkfxBc2NQ18-unsplash\ \(1\).jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 150px;
+    padding-bottom: 150x;
+    text-align: center;      
+}
+
+#header-body_2 h1{
+    font-size: 70px;
+    font-family: 'Birthstone', cursive;
+
+}
 body{
     background: #202124;
 }
 .menu{
     display: flex;
+    margin-right: 30px;
   
 }
 .menu li{
@@ -60,6 +78,7 @@ img{
     flex-wrap: wrap;
     max-width: 800px;
     margin: 0 auto;
+ 
     
 }
 
@@ -84,8 +103,55 @@ img{
 }
 h2{
     text-align: center;
-    margin: 3%;
+    margin-bottom: 5px;
+    margin-top: 5%;
     font-size: 30px;
 }
+#body-table{
+    margin: auto;
+    max-width: 1200px;
+
+}
+.table{
+   margin:auto;
+   border-collapse: collapse;
+   max-width: 800px;
+   border-radius: 5px;
+}
+.table td{
+  
+    padding: 8px;
+    
+}
+.table-head td{
+    font-family: 'Birthstone', cursive;
+    font-size: 45px;
+    background-color: #303160;
+    text-align: left;
+}
+#body-iframe{
+
+    max-width: 1200px;
+    margin: auto;
+}
+.frame{
+    margin-left: 10%;
+    max-width: 600px;
+    margin-bottom: 3%;
+}
+#footer{
+    max-width: 100%;
+    background-color: #303160;
+}
+.text_footer{
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
 
 
